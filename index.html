@@ -1,0 +1,42 @@
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon href=/favicon.ico><title>mobile</title><style>html,
+      body {
+        overflow-x: hidden;
+        overflow-y: auto;
+      }
+
+      body {
+        position: relative;
+        font-family: Arial, "Microsoft Yahei", "Helvetica Neue", Helvetica, sans-serif;
+      }
+
+      #load {
+        width: 100vw;
+        height: 100vh;
+        display: none;
+        overflow: hidden;
+        background-color: #dd001b;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        font-size: 10px;
+        z-index: 999;
+      }</style><link href=/css/car.9f7a7ed6.css rel=prefetch><link href=/css/discover.9f7a7ed6.css rel=prefetch><link href=/css/group-home.9f7a7ed6.css rel=prefetch><link href=/css/login.5c9fc192.css rel=prefetch><link href=/css/tab-bav.27164dda.css rel=prefetch><link href=/js/car.8b5c8a19.js rel=prefetch><link href=/js/discover.062aec1f.js rel=prefetch><link href=/js/group-home.7dc3b10b.js rel=prefetch><link href=/js/group-index.df6b4a63.js rel=prefetch><link href=/js/login.f8a3605b.js rel=prefetch><link href=/js/tab-bav.6a65f504.js rel=prefetch><link href=/css/app.55e5bc61.css rel=preload as=style><link href=/css/chunk-vendors.affe7fa0.css rel=preload as=style><link href=/js/app.17dff5ae.js rel=preload as=script><link href=/js/chunk-vendors.dffb03a7.js rel=preload as=script><link href=/css/chunk-vendors.affe7fa0.css rel=stylesheet><link href=/css/app.55e5bc61.css rel=stylesheet></head><body><div id=load></div><div id=app></div><script>const load = document.getElementById('load')
+      const body = document.getElementsByTagName('body')[0]
+      let data = sessionStorage.getItem('load');
+        console.log(!data);
+      if (!data) {
+        setLoad(body, load)
+      }
+
+      function setLoad(body, load) {
+        console.log('执行了');
+        body.style.overflow = 'hidden';
+        load.style.display = 'block';
+        sessionStorage.setItem('load', 1);
+        setTimeout(() => {
+          load.style.display = 'none'
+          body.style.overflow = '';
+        }, 5000);
+      }</script><script src=/js/chunk-vendors.dffb03a7.js></script><script src=/js/app.17dff5ae.js></script></body></html>

@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["group-index"],{f75a:function(e,n,t){"use strict";t.r(n);var c=function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("div",[e._v(" index ")])},i=[],a={name:"index"},r=a,u=t("2877"),o=Object(u["a"])(r,c,i,!1,null,"151c1efc",null);n["default"]=o.exports}}]);
+//# sourceMappingURL=group-index.df6b4a63.js.map
